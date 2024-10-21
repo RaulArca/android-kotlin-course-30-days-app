@@ -1,0 +1,100 @@
+package com.example.mhw30days.model
+
+import com.example.mhw30days.R
+
+object MonsterRepository {
+    val monsterList = listOf<Monster>(
+        Monster(nameRes = R.string.gran_jagras_name,
+            imageres = R.drawable.gran_jagras,
+            descriptionRes = R.string.gran_jagras_desc
+        ),Monster(nameRes = R.string.kulu_ya_ku_name,
+            imageres = R.drawable.kulu_ya_ku,
+            descriptionRes = R.string.kulu_ya_ku_desc
+        ),Monster(nameRes = R.string.pukei_pukei_name,
+            imageres = R.drawable.pukei_pukei,
+            descriptionRes = R.string.pukei_pukei_desc
+        ),Monster(nameRes = R.string.barroth_name,
+            imageres = R.drawable.barroth,
+            descriptionRes = R.string.barroth_desc
+        ),Monster(nameRes = R.string.Jyuratodus_name,
+            imageres = R.drawable.jyuratodus,
+            descriptionRes = R.string.Jyuratodus_desc
+        ),Monster(nameRes = R.string.tobi_kadachi_name,
+            imageres = R.drawable.tobi_kadashi,
+            descriptionRes = R.string.tobi_kadachi_desc
+        ),Monster(nameRes = R.string.anjanath_name,
+            imageres = R.drawable.anjanath,
+            descriptionRes = R.string.anjanath_desc
+        ),Monster(nameRes = R.string.rathian_name,
+            imageres = R.drawable.rathian,
+            descriptionRes = R.string.rathian_desc
+        ),Monster(nameRes = R.string.legiana_name,
+            imageres = R.drawable.legiana,
+            descriptionRes = R.string.legiana_desc
+        ),Monster(nameRes = R.string.rathalos_name,
+            imageres = R.drawable.rathalos,
+            descriptionRes = R.string.rathalos_desc
+        ),Monster(nameRes = R.string.Tzitzi_ya_ku_name,
+            imageres = R.drawable.tzitzi_ya_ku,
+            descriptionRes = R.string.Tzitzi_ya_ku_desc
+        ),Monster(nameRes = R.string.Paolomu_name,
+            imageres = R.drawable.paulomu,
+            descriptionRes = R.string.Paolomu_desc
+        ),Monster(nameRes = R.string.radobaan_name,
+            imageres = R.drawable.radoban,
+            descriptionRes = R.string.radobaan_desc
+        ),Monster(nameRes = R.string.gran_girros_name,
+            imageres = R.drawable.gran_girros,
+            descriptionRes = R.string.gran_girros_desc
+        ),Monster(nameRes = R.string.odogaron_name,
+            imageres = R.drawable.odogaron,
+            descriptionRes = R.string.odogaron_desc
+        ),Monster(nameRes = R.string.diablos_name,
+            imageres = R.drawable.diablos,
+            descriptionRes = R.string.diablos_desc
+        ),Monster(nameRes = R.string.kirin_name,
+            imageres = R.drawable.kirin,
+            descriptionRes = R.string.kirin_desc
+        ),Monster(nameRes = R.string.dodogama_name,
+            imageres = R.drawable.dodogama,
+            descriptionRes = R.string.dodogama_desc
+        ),Monster(nameRes = R.string.Bazelgeuse_name,
+            imageres = R.drawable.bazelgeuse,
+            descriptionRes = R.string.Bazelgeuse_desc
+        ),Monster(nameRes = R.string.lavasioth_name,
+            imageres = R.drawable.lavasioth,
+            descriptionRes = R.string.lavasioth_desc
+        ),Monster(nameRes = R.string.uragaan_name,
+            imageres = R.drawable.uragaan,
+            descriptionRes = R.string.uragaan_desc
+        ),Monster(nameRes = R.string.nergigante_name,
+            imageres = R.drawable.nergigante,
+            descriptionRes = R.string.nergigante_desc
+        ),Monster(nameRes = R.string.kushala_daora_name,
+            imageres = R.drawable.kushala_daora,
+            descriptionRes = R.string.kushala_daora_desc
+        ),Monster(nameRes = R.string.vaal_hazak_name,
+            imageres = R.drawable.vaal_hazak,
+            descriptionRes = R.string.vaal_hazak_desc
+        ),Monster(nameRes = R.string.xnojiiva_name,
+            imageres = R.drawable.xenojiiva,
+            descriptionRes = R.string.xnojiiva_desc
+        ),Monster(nameRes = R.string.beotodus_name,
+            imageres = R.drawable.beotodus,
+            descriptionRes = R.string.beotodus_desc
+        ),Monster(nameRes = R.string.banbaro_name,
+            imageres = R.drawable.banbaro,
+            descriptionRes = R.string.banbaro_desc
+        ),Monster(nameRes = R.string.barioth_name,
+            imageres = R.drawable.barioth,
+            descriptionRes = R.string.barioth_desc
+        ),Monster(nameRes = R.string.nargacuga_name,
+            imageres = R.drawable.nargacuga,
+            descriptionRes = R.string.nargacuga_desc
+        ),Monster(nameRes = R.string.tigrex_name,
+            imageres = R.drawable.tigrex,
+            descriptionRes = R.string.gran_jagras_desc
+        ),
+
+    )
+}
